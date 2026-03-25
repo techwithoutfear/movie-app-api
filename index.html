@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-buttons">
+    <button title="Home" onclick="showHome()">🏠</button>
+    <button title="Favorites" onclick="showFavorites()">❤️</button>
+    <button title="Smart Suggestions" onclick="showSuggestions()">🧠</button>
+    <button id="themeBtn" title="Switch Theme">🌙</button>
+  </div>
+
+  <h1 class="logo">🎬 Movie Pro</h1>
+</nav>
+
+<div class="search-box">
+  <input type="text" id="searchInput" placeholder="Search movies...">
+  <button onclick="searchMovie()">Search</button>
+</div>
+
+<h2 id="sectionTitle"></h2>
+
+<div id="message">
+  🎯 Discover trending movies, search your favorites, and explore smart suggestions.
+</div>
+
+<div id="movies"></div>
+
+<footer class="footer">
+  <h3>🎬 Movie Pro</h3>
+  <p>Discover • Explore • Enjoy Movies</p>
+
+  <div class="footer-links">
+    <span>🔥 Trending</span>
+    <span>❤️ Favorites</span>
+    <span>🧠 Smart Picks</span>
+  </div>
+
+  <p class="footer-copy">
+    © 2026 Movie Pro • Built with ❤️ using TMDB API
+  </p>
+</footer>
+
+<!-- MODAL -->
+<div id="movieModal" class="modal">
+  <div class="modal-content">
+    <span id="closeModal">&times;</span>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
