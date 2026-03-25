@@ -35,7 +35,8 @@ A modern movie search web application built using the TMDB API.
 ## 📸 Screenshots
 
 ### 🏠 Home Screen
-![Home Screen](https://github.com/user-attachments/assets/1dda4747-9091-4552-84eb-1b6db65edba5)
+![home](https://github.com/user-attachments/assets/2db9281a-72fd-4190-8797-34ca3bf996b1)
+
 
 
 ---
