@@ -1,4 +1,4 @@
-const apiKey = "27dd301043bfd260a21a6b8b7382ec3a";  
+const apiKey = "YOUR_API_KEY_HERE";  
 
 const moviesDiv = document.getElementById("movies");
 const sectionTitle = document.getElementById("sectionTitle");
